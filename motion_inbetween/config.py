@@ -4,9 +4,7 @@ import json
 import platform
 
 
-project_root = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.abspath(__file__))))
-config_root = os.path.join(project_root, "configs")
+config_root = "configs"
 
 
 def load_config(path):

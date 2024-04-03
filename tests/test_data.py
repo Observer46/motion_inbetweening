@@ -6,10 +6,8 @@ import torch
 from torch.utils.data import DataLoader
 
 from motion_inbetween import DATASET_ROOT
-from motion_inbetween.data import bvh
-from motion_inbetween.data import utils_np, utils_torch
-from motion_inbetween.data import loader
-
+from motion_inbetween.data import loader, utils_np
+from motion_inbetween.data import utils_torch, bvh
 
 anim_path = os.path.join(DATASET_ROOT, "lafan1", "walk1_subject1.bvh")
 anim = bvh.load_bvh(anim_path)
