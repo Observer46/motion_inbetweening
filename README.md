@@ -7,6 +7,7 @@ Transformers. ACM Trans. Graph. 41, 6, Article 184 (December 2022),
 16 pages. https://doi.org/10.1145/3550454.3555454
 
 **Based on repository of above-mentioned paper: https://github.com/victorqin/motion_inbetweening**
+Test on Python 3.11 on a laptop without GPU.
 
 ## Getting Started
 
