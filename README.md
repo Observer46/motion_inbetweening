@@ -56,5 +56,5 @@ Get inferred result on animation aiming1_subject1.bvh from LAFAN1 dataset with t
    where the animation clip starts at frame 450, save to the `output` directory:
 
    ```bash
-   python lafan1_detail_model lafan1_context_model "datasets/lafan1/aiming1_subject1.bvh" output -t 30 --offset 450
+   python eval_detail_model.py lafan1_detail_model lafan1_context_model "datasets/lafan1/aiming1_subject1.bvh" output -t 30 --offset 450
    ```
